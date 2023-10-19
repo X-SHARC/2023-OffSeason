@@ -128,7 +128,7 @@ public class Carriage extends SubsystemBase {
     return encoder.isConnected();
   }
 
-  public BooleanSupplier isCarriageAtAngleSupplier(double angle ){
+  public BooleanSupplier isCarriageAtAngleSupplier(double angle){
     isCarriageAtAngle = ()->{
       return (angle == getDegrees());
     };
