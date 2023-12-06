@@ -71,7 +71,7 @@ public class Elevator extends SubsystemBase {
     }
 
     public double getDistance(){
-      distance = elevatorMasterMotor.getSelectedSensorPosition() / 17.42;     // bak bunlara
+      distance = elevatorMasterMotor.getSelectedSensorPosition() / 17.42;     
       distance = (distance/2048.0) * gearCircumference * 2;
       return distance;
     }

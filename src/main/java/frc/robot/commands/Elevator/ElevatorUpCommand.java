@@ -23,7 +23,6 @@ public class ElevatorUpCommand extends CommandBase {
   }
     
 
-
   @Override
   public void end(boolean interrupted) {
     elevator.stop();
